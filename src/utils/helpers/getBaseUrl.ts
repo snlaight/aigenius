@@ -3,8 +3,8 @@ const getBaseUrl = () => {
     return '';
   }
 
-  if (process.env.VERCEL_URL) {
-    return `https://${process.env.VERCEL_URL}`;
+  if (process.env.PRODUCTION_URL) {
+    return `https://${process.env.PRODUCTION_URL}`;
   }
 
   if (process.env.RENDER_INTERNAL_HOSTNAME) {
