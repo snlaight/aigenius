@@ -12,7 +12,7 @@ This is a Next.js project bootstrapped with `create-next-app` and replicates the
 
 ## Extra Information
 
-This project is for developing and learning purposes only. It is not a real application.
+This project is for developing and learning purposes only. It is not a real application. It uses an existing repository as influence for the idea, but I have refactored it to use tRPC with the App Router and NextUI, with a Postgresql Database deployed on [Fl0](https://fl0.com/). Link to the original repository here: [Repo](https://github.com/AntonioErdeljac/next13-ai-saas)
 
 Feel free to explore and modify the code to enhance your understanding of these technologies.
 
