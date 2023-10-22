@@ -6,6 +6,8 @@ import { type NextRequest } from 'next/server';
 import AppRouter from '@/server/routers/_app';
 import PrismaInstance from '@/utils/helpers/clients/prisma.client';
 
+export const maxDuration = 180;
+
 const handler = (req: NextRequest) => fetchRequestHandler({
   endpoint: '/api/trpc',
   req,
