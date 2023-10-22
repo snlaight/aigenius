@@ -6,6 +6,8 @@ import getCurrentUser from '@/utils/helpers/getCurrentUser';
 import { checkSubscription } from '@/server/handlers/subscription';
 import { getApiLimitCount } from '@/server/handlers/user';
 
+export const dynamic = 'force-dynamic';
+
 const DashboardLayout = ({ children } : {children: React.ReactNode}) => {
   const user = use(getCurrentUser());
   const apiLimitCount = use(getApiLimitCount(user?.id as string));

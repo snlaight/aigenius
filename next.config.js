@@ -9,7 +9,6 @@ const nextConfig = {
   },
   eslint: {
     ignoreDuringBuilds: true,
-    ignoreBuildErrors: true
   },
   typescript: {
     ignoreBuildErrors: true,
